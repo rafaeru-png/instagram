@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Press+Start+2P&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Fontes */
+
+/* 
+
+font-family: 'Alata', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif; 
+
+*/
+
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------- */ 
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilização */
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
+   
+}
+
+body {
+   background: #ffffff;
+}
+
+.board {
+  
+}
+
+.content{
+  box-sizing: border-box;
+  margin-left: 25%;
+  margin-top: 10%;
+  border: 1px solid rgba(161, 161, 161, 0.603);
+  padding: 20px;
+  width: 50vw;
+}
+
+.name-logo {
+   height: 4em;
+   padding-top: 5vh;
+   padding-left: 20%;
+   margin-bottom: 1.5rem;
+}
+
+.email, .pass {
+   background-color: rgba(247, 245, 245, 0.486);
+   border:1px solid rgb(212, 212, 212);
+   font-size: 0.8rem;
+   border-radius: 5px;
+   padding-top: 2vh;
+   margin: 5px;
+   width: 80%;
+   display: flex;
+   margin-left: 10%;
+}
+
+.submit {
+   margin-bottom: 1em;
+   background: rgb(39, 172, 224);
+   border-radius: 0.44rem;
+   border: rgb(0, 0, 0);
+   font-size: 1rem;
+   font-weight: bold;
+   margin-left: 10%;
+   width: 80%;
+   height: 2rem;
+   color: white;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+
+.submit:hover {
+   background: rgb(75, 153, 206);
+}
+
+.linha-ou {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .linha-esquerda, .linha-direita {
+   border-top: 1px solid rgb(194, 193, 193);
+   width: 30%;
+   height: 0;
+ }
+ 
+ .texto-ou {
+   margin: 0 20px;
+   font-size: 16px;
+   color: rgb(139, 139, 139);
+ }
+
+ .facespace {
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+ }
+
+ .facebook { /* Entrar com Facebook */
+   font-size: 14px;
+   font-weight: 500;
+   color: rgb(77, 77, 126);
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+ }
+
+ .facebook:hover {
+   color: rgb(10, 10, 119);
+   text-decoration: underline;
+   cursor: pointer;
+ }
+
+ .faceico {
+   width: 1em;
+   padding-right: 0.5rem;
+ }
+
+ .esqueceu {
+   font-size: 13px;
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+   cursor: pointer;
+   color: rgb(87, 87, 148);
+   transition: 0.2s ease-in-out;
+ }
+
+ .esqueceu:hover {
+   color: rgb(6, 6, 77);
+   text-decoration: underline;
+ }
+
+ .novaconta { /* -------- Div --------- */
+  box-sizing: border-box;
+  margin-left: 25%;
+  margin-top: 1%;
+  border: 1px solid rgba(161, 161, 161, 0.603);
+  padding: 20px;
+  width: 50vw;
+ }
+
+ .newacc {  /* ----- Não tem uma conta ------ */
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
+ }
+
+ .cadastre {   /* ----- Cadastre-se -------- */
+  padding-left: 4px;
+  color: rgb(0, 68, 255);
+  transition: 0.2s ease-in-out;
+  font-weight: 400;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .cadastre:hover {
+  color: rgb(16, 16, 90);
+ }
+
+ .app { /* Obtenha o aplicativo */
+  margin-top: 1rem;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .playapp {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+ }
+
+ .appstore {
+  padding-top: 0.2rem;
+  width: 150px;
+  height: 50px;
+  margin-right: 1%;
+ }
+
+ .playstore {
+  width: 150px;
+  height: 57px;
+ }
+ 
+.disclaimer {
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 700px;
+}
+
+.options {
+  width: 95px;
+  cursor: pointer;
+}
+
+.options:hover {
+  color: rgb(77, 77, 77);
+}
